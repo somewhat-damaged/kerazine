@@ -7,7 +7,7 @@
 # changelog
 ## 1.0
 - implemented purely on top of DejaVu Sans Mono
-- remove arabic, armenian, georgian, lao scripts
+- remove Arabic, Armenian, Georgian, and Lao scripts
 - remove bottom serifs from `i`, extend top-left serif, shift right for optical balance
 - enlarged, vertically-centered `*`
 - increase gap and widen `=`
@@ -15,3 +15,4 @@
 - widen `-`, decrease thickness to match `+`
 - vertically center `~`
 - raise `_` to just-below baseline, optically horizontally center for oblique
+- standardize tiny inconsistencies and misalignments in `.`, `,`, `:`, and `;`
