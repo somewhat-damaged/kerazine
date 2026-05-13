@@ -16,3 +16,4 @@
 - vertically center `~`
 - raise `_` to just-below baseline, optically horizontally center for oblique
 - standardize tiny inconsistencies and misalignments in `.`, `,`, `:`, and `;`
+- slashed `0`
