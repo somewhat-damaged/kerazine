@@ -102327,6 +102327,7 @@ instances = (
 instanceInterpolations = {
 m01 = 1;
 };
+isItalic = 1;
 name = Oblique;
 properties = (
 {
