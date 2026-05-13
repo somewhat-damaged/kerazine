@@ -2785,7 +2785,7 @@ value = 1;
 }
 );
 date = "2016-07-30 10:03:35 +0000";
-familyName = "Kera Mono";
+familyName = Kerazine;
 features = (
 {
 code = "script cyrl;
@@ -102331,7 +102331,7 @@ name = Oblique;
 properties = (
 {
 key = postscriptFontName;
-value = "KeraMono-Oblique";
+value = "Kerazine-Oblique";
 }
 );
 }
@@ -102366,7 +102366,7 @@ key = licenses;
 values = (
 {
 language = ENG;
-value = "Kera Mono modifications are Copyright (c) 2026, Lane Tan (lane@imap.cc),
+value = "Kerazine modifications are Copyright (c) 2026, Lane Tan (lane@imap.cc),
 and are licensed under the SIL Open Font License, Version 1.1 (see below).
 Reserved Font Name: \"Kera Mono\".
 
@@ -102577,13 +102577,9 @@ key = manufacturers;
 values = (
 {
 language = ENG;
-value = "DejaVu fonts team";
+value = "Lane Tan";
 }
 );
-},
-{
-key = manufacturerURL;
-value = "http://dejavu.sourceforge.net";
 }
 );
 settings = {

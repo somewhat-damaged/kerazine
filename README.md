@@ -1,11 +1,10 @@
-# Kera Mono
+# Kerazine
 - fork of DejaVu Sans Mono, which is an extension of Bitstream Vera Sans Mono, an opinionated derivative of a classic.
 - only regular, oblique, and bold for foreseeable future
 
-[v1.0 screenshot](assets/sample.png)
+[screenshot](assets/sample.png)
 
 # changelog
-## 1.0
 - implemented purely on top of DejaVu Sans Mono
 - remove Arabic, Armenian, Georgian, and Lao scripts
 - remove bottom serifs from `i`, extend top-left serif, shift right for optical balance

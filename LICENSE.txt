@@ -1,6 +1,6 @@
-Kera Mono modifications are Copyright (c) 2026, Lane Tan (lane@imap.cc),
+Kerazine modifications are Copyright (c) 2026, Lane Tan (lane@imap.cc),
 and are licensed under the SIL Open Font License, Version 1.1 (see below).
-Reserved Font Name: "Kera Mono".
+Reserved Font Name: "Kerazine".
 
 The base fonts are (c) Bitstream (see below). DejaVu changes are in public domain.
 Glyphs imported from Arev fonts are (c) Tavmjong Bah (see below).
