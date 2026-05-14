@@ -1,12 +1,11 @@
 # Kerazine
-- fork of DejaVu Sans Mono, which is an extension of Bitstream Vera Sans Mono, an opinionated derivative of a classic.
+- edit of Bitstream Vera Sans Mono
 - only regular, oblique, and bold for foreseeable future
 
 ![screenshot](assets/screenshot.png)
 
 # changelog
-- implemented purely on top of DejaVu Sans Mono
-- remove Arabic, Armenian, Georgian, and Lao scripts
+- implemented purely on top of Bitstream Vera Sans Mono
 - remove bottom serifs from `i`, extend top-left serif, shift right for optical balance
 - enlarged, vertically-centered `*`
 - increase gap between `=` bars
@@ -17,3 +16,5 @@
 - standardize tiny inconsistencies and misalignments in `.`, `,`, `:`, and `;`
 - slashed `0`
 - slightly lower `l` ascender to match other ascenders
+- center `'`, and `'`
+- extend slash/backslash to match parens/brackets/braces
