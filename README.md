@@ -9,10 +9,11 @@
 - remove Arabic, Armenian, Georgian, and Lao scripts
 - remove bottom serifs from `i`, extend top-left serif, shift right for optical balance
 - enlarged, vertically-centered `*`
-- increase gap and widen `=`
+- increase gap `=` bars
 - small centering tweaks for `+`
 - widen `-`, decrease thickness to match `+`
 - vertically center `~`
-- raise `_` to just-below baseline, optically horizontally center for oblique
+- raise `_` to just-below baseline, optically center for oblique
 - standardize tiny inconsistencies and misalignments in `.`, `,`, `:`, and `;`
 - slashed `0`
+- slightly lower `l` ascender to match other ascenders
