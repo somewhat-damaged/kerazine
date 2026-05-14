@@ -2,7 +2,7 @@
 - fork of DejaVu Sans Mono, which is an extension of Bitstream Vera Sans Mono, an opinionated derivative of a classic.
 - only regular, oblique, and bold for foreseeable future
 
-[screenshot](assets/sample.png)
+![screenshot](assets/screenshot.png)
 
 # changelog
 - implemented purely on top of DejaVu Sans Mono
