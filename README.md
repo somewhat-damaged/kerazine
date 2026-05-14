@@ -7,6 +7,7 @@
 # changelog
 - implemented purely on top of Bitstream Vera Sans Mono
 - remove bottom serifs from `i`, extend top-left serif, shift right for optical balance
+- shift `j` right slightly to compensate for new `i` sidebearings
 - enlarged, vertically-centered `*`
 - increase gap between `=` bars
 - small centering tweaks for `+`
