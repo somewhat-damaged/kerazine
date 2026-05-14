@@ -1,6 +1,9 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
+DisplayStrings = (
+l
+);
 customParameters = (
 {
 name = vendorID;
