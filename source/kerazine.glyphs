@@ -341,19 +341,6 @@ tag = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_latn_1 {
-	lookupflag 0;
-	sub fi by f i;
-	sub fl by f l;
-} ccmp_latn_1;
-
-script latn;
-lookup ccmp_latn_1;
-";
-tag = ccmp;
-},
-{
-automatic = 1;
 code = "sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
@@ -374,14 +361,6 @@ code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfem
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 ";
 tag = ordn;
-},
-{
-automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub f i by fi;
-sub f l by fl;
-";
-tag = liga;
 }
 );
 fontMaster = (
@@ -13561,166 +13540,6 @@ note = guilsinglright;
 unicode = 8250;
 },
 {
-glyphname = fi;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(1079,1321,l),
-(1079,1554,l),
-(895,1554,l),
-(895,1321,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(405,1556,o),
-(236,1382,o),
-(236,1198,qs),
-(236,1120,l),
-(35,1120,l),
-(35,977,l),
-(236,977,l),
-(236,0,l),
-(420,0,l),
-(420,977,l),
-(895,977,l),
-(895,0,l),
-(1079,0,l),
-(1079,1118,l),
-(420,1118,l),
-(420,1219,ls),
-(420,1322,o),
-(497,1403,o),
-(596,1403,qs),
-(776,1403,l),
-(776,1556,l),
-(584,1556,ls)
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 42 values pushed */
-20 9 22 2 18 14 182 10 5 140 4 2 196 0 155 4 155 10 194 16 12 6 25 9 4 13 0 6 1 4 15 9 6 11 1 74 19 69 21 17 69 26
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[10100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[00100]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-MIRP[11100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MDRP[00100]	/* MoveDirectRelPt */
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[01110]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IUP[1]	/* InterpolateUntPts */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[00110]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-MIRP[11110]	/* MoveIndirectRelPt */
-MIRP[01110]	/* MoveIndirectRelPt */
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[01110]	/* MoveIndirectRelPt */
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[01110]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 1233;
-}
-);
-note = fi;
-unicode = 64257;
-},
-{
-glyphname = fl;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(405,1556,o),
-(236,1382,o),
-(236,1198,qs),
-(236,1120,l),
-(35,1120,l),
-(35,977,l),
-(236,977,l),
-(236,0,l),
-(420,0,l),
-(420,977,l),
-(713,977,l),
-(713,1118,l),
-(420,1118,l),
-(420,1219,ls),
-(420,1322,o),
-(497,1403,o),
-(596,1403,qs),
-(895,1403,l),
-(895,0,l),
-(1079,0,l),
-(1079,1556,l),
-(584,1556,ls)
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 35 values pushed */
-16 7 18 3 14 10 182 8 3 140 0 155 8 194 12 1 4 21 9 7 2 6 0 9 11 7 6 0 74 15 69 17 13 69 22
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[10100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[00100]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-MIRP[11100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MDRP[00100]	/* MoveDirectRelPt */
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[01110]	/* MoveIndirectRelPt */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IUP[1]	/* InterpolateUntPts */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[00110]	/* MoveIndirectRelPt */
-MIRP[11110]	/* MoveIndirectRelPt */
-MIRP[01110]	/* MoveIndirectRelPt */
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[01110]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 1233;
-}
-);
-note = fl;
-unicode = 64258;
-},
-{
 glyphname = daggerdbl;
 layers = (
 {
@@ -17426,8 +17245,7 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright (c) 2003 Bitstream, Inc. | Copyright (c) 2026 Lane Tan
-";
+value = "Copyright (c) 2003 Bitstream, Inc. | Copyright (c) 2026 Lane Tan";
 }
 );
 },

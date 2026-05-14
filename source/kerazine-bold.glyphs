@@ -1,9 +1,6 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
-DisplayStrings = (
-"ı"
-);
 customParameters = (
 {
 name = panose;
@@ -323,6 +320,47 @@ value = 1;
 );
 date = "2026-05-14 15:27:52 +0000";
 familyName = Kerazine;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature sups;
+feature frac;
+feature ordn;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+}
+);
 fontMaster = (
 {
 customParameters = (
@@ -13617,161 +13655,6 @@ note = guilsinglright;
 unicode = 8250;
 },
 {
-glyphname = fi;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(1098,1264,l),
-(1098,1556,l),
-(805,1556,l),
-(805,1264,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(542,1331,o),
-(608,1331,qs),
-(676,1331,l),
-(676,1556,l),
-(596,1556,ls),
-(368,1556,o),
-(201,1400,o),
-(201,1198,qs),
-(201,1120,l),
-(12,1120,l),
-(12,895,l),
-(201,895,l),
-(201,0,l),
-(494,0,l),
-(494,895,l),
-(805,895,l),
-(805,0,l),
-(1098,0,l),
-(1098,1120,l),
-(494,1120,l),
-(494,1219,ls),
-(495,1283,o)
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 38 values pushed */
-17 4 2 13 9 143 5 22 143 2 20 0 116 15 5 144 11 7 23 20 4 21 90 8 0 22 6 1 89 14 88 10 4 22 16 12 88 26
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[11100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-MIRP[01100]	/* MoveIndirectRelPt */
-MIRP[11100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[11100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SRP1[ ]	/* SetRefPoint1 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IUP[1]	/* InterpolateUntPts */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[00100]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-MIRP[11100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MDRP[01100]	/* MoveDirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[01110]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 1233;
-}
-);
-note = fi;
-unicode = 64257;
-},
-{
-glyphname = fl;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(542,1331,o),
-(608,1331,qs),
-(805,1331,l),
-(805,0,l),
-(1098,0,l),
-(1098,1556,l),
-(596,1556,ls),
-(368,1556,o),
-(201,1400,o),
-(201,1198,qs),
-(201,1120,l),
-(12,1120,l),
-(12,895,l),
-(201,895,l),
-(201,0,l),
-(494,0,l),
-(494,895,l),
-(682,895,l),
-(682,1120,l),
-(494,1120,l),
-(494,1219,ls),
-(495,1283,o)
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 34 values pushed */
-0 11 18 7 3 143 1 18 143 14 116 9 1 144 16 5 19 14 0 2 90 17 22 15 89 8 88 4 0 22 10 6 88 22
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[11100]	/* MoveIndirectRelPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-MIRP[01100]	/* MoveIndirectRelPt */
-MIRP[11100]	/* MoveIndirectRelPt */
-MIRP[11100]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SRP1[ ]	/* SetRefPoint1 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IUP[1]	/* InterpolateUntPts */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-ALIGNRP[ ]	/* AlignRelativePt */
-MIRP[00100]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-MIRP[11100]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SRP0[ ]	/* SetRefPoint0 */
-MIRP[01110]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-IP[ ]	/* InterpolatePts */
-IUP[0]	/* InterpolateUntPts */";
-};
-width = 1233;
-}
-);
-note = fl;
-unicode = 64258;
-},
-{
 glyphname = daggerdbl;
 layers = (
 {
@@ -17473,9 +17356,7 @@ key = copyrights;
 values = (
 {
 language = ENG;
-value = "Copyright (c) 2003 Bitstream, Inc. | Copyright (c) 2026 Lane Tan
-
-";
+value = "Copyright (c) 2003 Bitstream, Inc. | Copyright (c) 2026 Lane Tan";
 }
 );
 },
