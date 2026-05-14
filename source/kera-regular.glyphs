@@ -2,7 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-l
+"/backslash"
 );
 customParameters = (
 {
@@ -5605,17 +5605,31 @@ unicode = 46;
 },
 {
 glyphname = slash;
+lastChange = "2026-05-14 07:45:21 +0000";
 layers = (
 {
+guides = (
+{
+pos = (1558,-270);
+},
+{
+angle = 64.9663;
+pos = (686,652);
+},
+{
+angle = 244.9384;
+pos = (496,652);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(293,-190,l),
-(1079,1493,l),
-(889,1493,l),
-(102,-190,l)
+(255,-270,l),
+(1108,1556,l),
+(919,1556,l),
+(65,-270,l)
 );
 }
 );
@@ -9179,17 +9193,31 @@ unicode = 91;
 },
 {
 glyphname = backslash;
+lastChange = "2026-05-14 07:46:38 +0000";
 layers = (
 {
+guides = (
+{
+pos = (1458,-270);
+},
+{
+angle = -64.9384;
+pos = (496,652);
+},
+{
+angle = 115.0337;
+pos = (686,652);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(889,-190,l),
-(1079,-190,l),
-(293,1493,l),
-(102,1493,l)
+(927,-270,l),
+(1117,-270,l),
+(264,1556,l),
+(73,1556,l)
 );
 }
 );
