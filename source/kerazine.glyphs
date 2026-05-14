@@ -1,9 +1,6 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
-DisplayStrings = (
-"/backslash"
-);
 customParameters = (
 {
 name = vendorID;
@@ -6601,7 +6598,7 @@ unicode = 60;
 },
 {
 glyphname = equal;
-lastChange = "2026-05-10 19:21:27 +0000";
+lastChange = "2026-05-14 08:02:27 +0000";
 layers = (
 {
 layerId = m01;
@@ -6609,19 +6606,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(1145,328,l),
-(1145,500,l),
-(88,500,l),
-(88,328,l)
+(1145,302,l),
+(1145,472,l),
+(88,472,l),
+(88,302,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(1145,786,l),
-(1145,956,l),
-(88,956,l),
-(88,786,l)
+(1145,812,l),
+(1145,982,l),
+(88,982,l),
+(88,812,l)
 );
 }
 );
