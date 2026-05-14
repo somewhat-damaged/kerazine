@@ -9,7 +9,7 @@
 - remove Arabic, Armenian, Georgian, and Lao scripts
 - remove bottom serifs from `i`, extend top-left serif, shift right for optical balance
 - enlarged, vertically-centered `*`
-- increase gap `=` bars
+- increase gap between `=` bars
 - small centering tweaks for `+`
 - widen `-`, decrease thickness to match `+`
 - vertically center `~`
