@@ -2,7 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-j
+","
 );
 customParameters = (
 {
@@ -2043,7 +2043,7 @@ unicode = 43;
 },
 {
 glyphname = comma;
-lastChange = "2026-05-14 15:23:05 +0000";
+lastChange = "2026-05-15 01:56:53 +0000";
 layers = (
 {
 layerId = m01;
@@ -2051,12 +2051,12 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(371,-287,l),
+(372,-287,l),
 (587,-287,l),
 (783,96,l),
 (783,367,l),
-(470,367,l),
-(470,96,l)
+(450,367,l),
+(450,96,l)
 );
 }
 );
