@@ -2,7 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-","
+"ı"
 );
 customParameters = (
 {
@@ -337,6 +337,7 @@ automatic = 1;
 code = "feature sups;
 feature frac;
 feature ordn;
+feature cv01;
 ";
 tag = aalt;
 },
@@ -362,6 +363,12 @@ code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfem
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 ";
 tag = ordn;
+},
+{
+automatic = 1;
+code = "sub i by i.cv01;
+";
+tag = cv01;
 }
 );
 fontMaster = (
@@ -6259,29 +6266,51 @@ unicode = 104;
 },
 {
 glyphname = i;
-lastChange = "2026-05-14 19:10:30 +0000";
+lastChange = "2026-05-15 07:10:10 +0000";
 layers = (
 {
+guides = (
+{
+angle = 180;
+pos = (506,1120);
+},
+{
+angle = 90;
+pos = (680,1012);
+},
+{
+angle = 180;
+pos = (713,1665);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(152,1120,l),
-(152,895,l),
-(566,895,l),
-(566,0,l),
-(859,0,l),
-(859,1120,l)
+(387,1665,l),
+(387,1323,l),
+(680,1323,l),
+(680,1665,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(566,1665,l),
-(566,1323,l),
-(859,1323,l),
-(859,1665,l)
+(569,0,o),
+(778,0,qs),
+(1094,0,l),
+(1094,225,l),
+(860,225,ls),
+(762,225,o),
+(680,335,o),
+(680,467,qs),
+(680,1120,l),
+(90,1120,l),
+(90,895,l),
+(387,895,l),
+(387,467,ls),
+(387,216,o)
 );
 }
 );
@@ -14365,7 +14394,7 @@ unicode = 217;
 },
 {
 glyphname = dotlessi;
-lastChange = "2026-05-14 15:24:31 +0000";
+lastChange = "2026-05-15 07:10:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -14373,12 +14402,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(162,1120,l),
-(162,895,l),
-(576,895,l),
-(576,0,l),
-(869,0,l),
-(869,1120,l)
+(569,0,o),
+(778,0,qs),
+(1094,0,l),
+(1094,225,l),
+(860,225,ls),
+(762,225,o),
+(680,335,o),
+(680,467,qs),
+(680,1120,l),
+(90,1120,l),
+(90,895,l),
+(387,895,l),
+(387,467,ls),
+(387,216,o)
 );
 }
 );
@@ -17312,6 +17349,38 @@ width = 1233;
 }
 );
 note = c6476;
+},
+{
+glyphname = i.cv01;
+lastChange = "2026-05-15 07:07:11 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,1120,l),
+(152,895,l),
+(566,895,l),
+(566,0,l),
+(859,0,l),
+(859,1120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(566,1665,l),
+(566,1323,l),
+(859,1323,l),
+(859,1665,l)
+);
+}
+);
+width = 1233;
+}
+);
 }
 );
 instances = (

@@ -1,9 +1,6 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
-DisplayStrings = (
-";"
-);
 customParameters = (
 {
 name = panose;
@@ -327,8 +324,6 @@ featurePrefixes = (
 {
 automatic = 1;
 code = "languagesystem DFLT dflt;
-
-languagesystem latn dflt;
 ";
 name = Languagesystems;
 }
@@ -339,6 +334,7 @@ automatic = 1;
 code = "feature sups;
 feature frac;
 feature ordn;
+feature cv01;
 ";
 tag = aalt;
 },
@@ -364,6 +360,12 @@ code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfem
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 ";
 tag = ordn;
+},
+{
+automatic = 1;
+code = "sub i by i.cv01;
+";
+tag = cv01;
 }
 );
 fontMaster = (
@@ -6459,29 +6461,47 @@ unicode = 104;
 },
 {
 glyphname = i;
-lastChange = "2026-05-14 19:07:59 +0000";
+lastChange = "2026-05-15 07:00:21 +0000";
 layers = (
 {
+guides = (
+{
+angle = 90;
+pos = (639,681);
+},
+{
+angle = 180;
+pos = (505,1120);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(804,0,l),
-(804,1120,l),
-(206,1120,l),
-(206,977,l),
-(620,977,l),
-(620,0,l)
+(160,1120,l),
+(160,976,l),
+(455,976,l),
+(455,406,ls),
+(455,212,o),
+(636,0,o),
+(801,0,qs),
+(1034,0,l),
+(1034,156,l),
+(819,156,ls),
+(730,156,o),
+(639,282,o),
+(639,406,qs),
+(639,1120,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(804,1323,l),
-(804,1556,l),
-(620,1556,l),
-(620,1323,l)
+(639,1323,l),
+(639,1556,l),
+(455,1556,l),
+(455,1323,l)
 );
 }
 );
@@ -14268,7 +14288,7 @@ unicode = 217;
 },
 {
 glyphname = dotlessi;
-lastChange = "2026-05-14 14:48:45 +0000";
+lastChange = "2026-05-15 07:01:50 +0000";
 layers = (
 {
 layerId = m01;
@@ -14276,12 +14296,20 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(814,0,l),
-(814,1120,l),
-(216,1120,l),
-(216,977,l),
-(630,977,l),
-(630,0,l)
+(160,1120,l),
+(160,976,l),
+(455,976,l),
+(455,406,ls),
+(455,212,o),
+(636,0,o),
+(801,0,qs),
+(1034,0,l),
+(1034,156,l),
+(819,156,ls),
+(730,156,o),
+(639,282,o),
+(639,406,qs),
+(639,1120,l)
 );
 }
 );
@@ -17213,6 +17241,38 @@ width = 1233;
 }
 );
 note = c6476;
+},
+{
+glyphname = i.cv01;
+lastChange = "2026-05-15 06:58:04 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(804,0,l),
+(804,1120,l),
+(206,1120,l),
+(206,977,l),
+(620,977,l),
+(620,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(804,1323,l),
+(804,1556,l),
+(620,1556,l),
+(620,1323,l)
+);
+}
+);
+width = 1233;
+}
+);
 }
 );
 instances = (
