@@ -1,6 +1,6 @@
 # Kerazine
 - edit of Bitstream Vera Sans Mono
-- only regular, oblique, and bold for foreseeable future
+- only regular and oblique for now
 
 ![screenshot](assets/screenshot.png)
 
@@ -9,6 +9,7 @@
 - remove bottom serifs from `i`, extend top-left serif, shift right for optical balance
 - enlarged, vertically-centered `*`
 - increase gap between `=` bars
+- shift oblique `j` left for consistency with roman
 - small centering tweaks for `+`
 - widen `-`, decrease thickness to match `+`
 - vertically center `~`
