@@ -19,3 +19,6 @@
 - slightly lower `l` ascender to match other ascenders
 - center `'`, and `'`
 - extend slash/backslash to match parens/brackets/braces
+- programmatically align obliques from scratch using script that centers them positionally against the x-height of roman
+- implement oblique everything (mainly punctuation and symbols)
+- `cv01` is a curly-tailed `i` derived from the `l` glyph
