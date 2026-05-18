@@ -21,3 +21,4 @@
 - extend slash/backslash to match parens/brackets/braces
 - programmatically realign obliques using script against the x-height center of upright
 - `cv01` is a curly-tailed `i` derived from the `l` glyph
+- widen quotes, enlarge period, ellipsis, comma, semicolon, consolidate non-ascii punctuation into ascii variants, widen underscore, widen hyphen, en-dash and em-dash now just use hyphen component
