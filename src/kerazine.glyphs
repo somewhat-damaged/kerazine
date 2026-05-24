@@ -451,11 +451,11 @@ value = 141;
 },
 {
 name = underlinePosition;
-value = -213;
+value = -184;
 },
 {
 name = underlineThickness;
-value = 141;
+value = 184;
 },
 {
 name = "prep Table Assembly";
@@ -1418,11 +1418,11 @@ value = 141;
 },
 {
 name = underlinePosition;
-value = -213;
+value = -184;
 },
 {
 name = underlineThickness;
-value = 141;
+value = 184;
 },
 {
 name = "prep Table Assembly";
