@@ -1,5 +1,6 @@
 {
 .appVersion = "3525";
+.storedFileType = com.schriftgestaltung.glyphs;
 .formatVersion = 3;
 DisplayStrings = (
 "/dotlessi.cv02/dotlessi.cv02"
@@ -377,12 +378,14 @@ tag = ordn;
 {
 automatic = 1;
 code = "sub i by i.cv01;
+sub dotlessi by dotlessi.cv01;
 ";
 tag = cv01;
 },
 {
 automatic = 1;
 code = "sub i by i.cv02;
+sub dotlessi by dotlessi.cv02;
 ";
 tag = cv02;
 },
@@ -6158,6 +6161,7 @@ glyphname = semicolon;
 lastChange = "2026-05-20 17:21:54 +0000";
 layers = (
 {
+.lastUpdate = 801645241.849;
 guides = (
 {
 angle = 180;
@@ -16943,6 +16947,7 @@ glyphname = Adieresis;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645241.833;
 layerId = m01;
 shapes = (
 {
@@ -17258,6 +17263,7 @@ glyphname = Ccedilla;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645241.834;
 layerId = m01;
 shapes = (
 {
@@ -17334,6 +17340,7 @@ glyphname = Ntilde;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.053;
 layerId = m01;
 shapes = (
 {
@@ -17372,6 +17379,7 @@ glyphname = Odieresis;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.061;
 layerId = m01;
 shapes = (
 {
@@ -17410,6 +17418,7 @@ glyphname = Udieresis;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.061;
 layerId = m01;
 shapes = (
 {
@@ -17522,6 +17531,7 @@ glyphname = acircumflex;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.061;
 layerId = m01;
 shapes = (
 {
@@ -17559,6 +17569,7 @@ glyphname = adieresis;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.061;
 layerId = m01;
 shapes = (
 {
@@ -17596,6 +17607,7 @@ glyphname = atilde;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.061;
 layerId = m01;
 shapes = (
 {
@@ -17633,6 +17645,7 @@ glyphname = aring;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.061;
 layerId = m01;
 shapes = (
 {
@@ -17670,6 +17683,7 @@ glyphname = ccedilla;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.061;
 layerId = m01;
 shapes = (
 {
@@ -17782,6 +17796,7 @@ glyphname = ecircumflex;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.061;
 layerId = m01;
 shapes = (
 {
@@ -17819,6 +17834,7 @@ glyphname = edieresis;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.052;
 layerId = m01;
 shapes = (
 {
@@ -17856,11 +17872,12 @@ glyphname = iacute;
 lastChange = "2026-05-18 11:58:29 +0000";
 layers = (
 {
+.lastUpdate = 801645239.855;
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = dotlessi;
+ref = dotlessi.cv01;
 },
 {
 alignment = -1;
@@ -17874,7 +17891,7 @@ layerId = "281C21A4-45D9-482C-B928-385594A59359";
 shapes = (
 {
 alignment = -1;
-ref = dotlessi;
+ref = dotlessi.cv01;
 },
 {
 alignment = -1;
@@ -17893,11 +17910,12 @@ glyphname = igrave;
 lastChange = "2026-05-18 11:58:29 +0000";
 layers = (
 {
+.lastUpdate = 801645239.855;
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = dotlessi;
+ref = dotlessi.cv01;
 },
 {
 alignment = -1;
@@ -17911,7 +17929,7 @@ layerId = "281C21A4-45D9-482C-B928-385594A59359";
 shapes = (
 {
 alignment = -1;
-ref = dotlessi;
+ref = dotlessi.cv01;
 },
 {
 alignment = -1;
@@ -17930,11 +17948,12 @@ glyphname = icircumflex;
 lastChange = "2026-05-18 11:58:29 +0000";
 layers = (
 {
+.lastUpdate = 801645239.855;
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = dotlessi;
+ref = dotlessi.cv01;
 },
 {
 alignment = -1;
@@ -17948,7 +17967,7 @@ layerId = "281C21A4-45D9-482C-B928-385594A59359";
 shapes = (
 {
 alignment = -1;
-ref = dotlessi;
+ref = dotlessi.cv01;
 },
 {
 alignment = -1;
@@ -17967,11 +17986,12 @@ glyphname = idieresis;
 lastChange = "2026-05-18 11:58:29 +0000";
 layers = (
 {
+.lastUpdate = 801645239.854;
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = dotlessi;
+ref = dotlessi.cv01;
 },
 {
 alignment = -1;
@@ -17985,7 +18005,7 @@ layerId = "281C21A4-45D9-482C-B928-385594A59359";
 shapes = (
 {
 alignment = -1;
-ref = dotlessi;
+ref = dotlessi.cv01;
 },
 {
 alignment = -1;
@@ -18004,6 +18024,7 @@ glyphname = ntilde;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.06;
 layerId = m01;
 shapes = (
 {
@@ -18116,6 +18137,7 @@ glyphname = ocircumflex;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.06;
 layerId = m01;
 shapes = (
 {
@@ -18154,6 +18176,7 @@ glyphname = odieresis;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.06;
 layerId = m01;
 shapes = (
 {
@@ -18192,6 +18215,7 @@ glyphname = otilde;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.059;
 layerId = m01;
 shapes = (
 {
@@ -18304,6 +18328,7 @@ glyphname = ucircumflex;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.059;
 layerId = m01;
 shapes = (
 {
@@ -18341,6 +18366,7 @@ glyphname = udieresis;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.057;
 layerId = m01;
 shapes = (
 {
@@ -25947,6 +25973,7 @@ glyphname = Atilde;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.055;
 layerId = m01;
 shapes = (
 {
@@ -25985,6 +26012,7 @@ glyphname = Otilde;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.055;
 layerId = m01;
 shapes = (
 {
@@ -26758,6 +26786,7 @@ glyphname = quotedblright;
 lastChange = "2026-05-18 12:22:24 +0000";
 layers = (
 {
+.lastUpdate = 801645228.055;
 layerId = m01;
 shapes = (
 {
@@ -26928,6 +26957,7 @@ glyphname = quoteright;
 lastChange = "2026-05-18 10:26:45 +0000";
 layers = (
 {
+.lastUpdate = 801645228.055;
 layerId = m01;
 shapes = (
 {
@@ -26999,6 +27029,7 @@ glyphname = divide;
 lastChange = "2026-05-19 17:39:27 +0000";
 layers = (
 {
+.lastUpdate = 801645228.055;
 layerId = m01;
 shapes = (
 {
@@ -27167,6 +27198,7 @@ glyphname = ydieresis;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.055;
 layerId = m01;
 shapes = (
 {
@@ -27203,6 +27235,7 @@ glyphname = Ydieresis;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.055;
 layerId = m01;
 shapes = (
 {
@@ -27241,6 +27274,7 @@ glyphname = fraction;
 lastChange = "2026-05-19 17:38:44 +0000";
 layers = (
 {
+.lastUpdate = 801645228.055;
 layerId = m01;
 shapes = (
 {
@@ -28576,6 +28610,7 @@ glyphname = Acircumflex;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.053;
 layerId = m01;
 shapes = (
 {
@@ -28614,6 +28649,7 @@ glyphname = Ecircumflex;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.053;
 layerId = m01;
 shapes = (
 {
@@ -28690,6 +28726,7 @@ glyphname = Edieresis;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.052;
 layerId = m01;
 shapes = (
 {
@@ -28766,6 +28803,7 @@ glyphname = Iacute;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.052;
 layerId = m01;
 shapes = (
 {
@@ -28804,6 +28842,7 @@ glyphname = Icircumflex;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.052;
 layerId = m01;
 shapes = (
 {
@@ -28842,6 +28881,7 @@ glyphname = Idieresis;
 lastChange = "2026-05-18 11:58:19 +0000";
 layers = (
 {
+.lastUpdate = 801645228.06;
 layerId = m01;
 shapes = (
 {
@@ -28880,6 +28920,7 @@ glyphname = Igrave;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.057;
 layerId = m01;
 shapes = (
 {
@@ -28956,6 +28997,7 @@ glyphname = Ocircumflex;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.057;
 layerId = m01;
 shapes = (
 {
@@ -29070,6 +29112,7 @@ glyphname = Ucircumflex;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.057;
 layerId = m01;
 shapes = (
 {
@@ -29143,106 +29186,34 @@ unicode = 217;
 },
 {
 glyphname = dotlessi;
-lastChange = "2026-05-24 00:46:08 +0000";
+lastChange = "2026-05-28 07:13:59 +0000";
 layers = (
 {
+.lastUpdate = 801645216.019;
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(575,977,l),
-(575,143,l),
-(210,143,l),
-(210,0,l),
-(1124,0,l),
-(1124,143,l),
-(759,143,l),
-(759,1120,l),
-(287,1120,l),
-(287,977,l)
+(804,0,l),
+(804,1120,l),
+(194,1120,l),
+(194,976,l),
+(620,976,l),
+(620,0,l)
 );
 }
 );
-userData = {
-assembly = "NPUSHB[ ]	/* 18 values pushed */
-8 182 0 194 6 2 182 4 3 76 1 6 5 76 0 75 7 10
-SRP0[ ]	/* SetRefPoint0 */
-MDRP[10100]	/* MoveDirectRelPt */
-MIRP[00100]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-MIRP[11100]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-IUP[1]	/* InterpolateUntPts */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-MIRP[10100]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-IUP[0]	/* InterpolateUntPts */";
-};
 width = 1233;
 },
 {
+.lastUpdate = 801645201.122;
 layerId = "281C21A4-45D9-482C-B928-385594A59359";
-shapes = (
-{
-closed = 1;
-nodes = (
-(655,977,l),
-(494,143,l),
-(129,143,l),
-(101,0,l),
-(1015,0,l),
-(1043,143,l),
-(678,143,l),
-(868,1120,l),
-(395,1120,l),
-(367,977,l)
-);
-}
-);
-userData = {
-assembly = "NPUSHB[ ]	/* 34 values pushed */
-8 5 1 2 1 7 5 2 2 1 58 8 137 0 141 6 2 137 4 9 8 7 6 5 0 6 10 2 4 1 3 2 1 10
-SRP0[ ]	/* SetRefPoint0 */
-MDRP[10100]	/* MoveDirectRelPt */
-MDRP[10100]	/* MoveDirectRelPt */
-MDRP[00100]	/* MoveDirectRelPt */
-SRP1[ ]	/* SetRefPoint1 */
-IP[ ]	/* InterpolatePts */
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-SLOOP[ ]	/* SetLoopVariable */
-IP[ ]	/* InterpolatePts */
-IUP[1]	/* InterpolateUntPts */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-MDAP[1]	/* MoveDirectAbsPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-SHP[0]	/* ShiftPointByLastPoint */
-MIRP[10100]	/* MoveIndirectRelPt */
-MIRP[01100]	/* MoveIndirectRelPt */
-IUP[0]	/* InterpolateUntPts */
-MPPEM[ ]	/* MeasurePixelPerEm */
-GTEQ[ ]	/* GreaterThanOrEqual */
-IF[ ]	/* If */
-SPVTL[1]	/* SetPVectorToLine */
-SRP0[ ]	/* SetRefPoint0 */
-SFVTCA[1]	/* SetFVectorToAxis */
-MIRP[01101]	/* MoveIndirectRelPt */
-SPVTL[1]	/* SetPVectorToLine */
-SRP0[ ]	/* SetRefPoint0 */
-SFVTCA[1]	/* SetFVectorToAxis */
-MIRP[01101]	/* MoveIndirectRelPt */
-EIF[ ]	/* EndIf */
-CLEAR[ ]	/* ClearStack */";
-};
 width = 1233;
 }
 );
-note = dotlessi;
 unicode = 305;
+changeCount = 1;
 },
 {
 glyphname = circumflex;
@@ -32154,6 +32125,7 @@ glyphname = multiply;
 lastChange = "2026-05-19 17:39:41 +0000";
 layers = (
 {
+.lastUpdate = 801645228.058;
 layerId = m01;
 shapes = (
 {
@@ -32932,6 +32904,7 @@ glyphname = Idotaccent;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.054;
 layerId = m01;
 shapes = (
 {
@@ -32970,6 +32943,7 @@ glyphname = Scedilla;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.054;
 layerId = m01;
 shapes = (
 {
@@ -33006,6 +32980,7 @@ glyphname = scedilla;
 lastChange = "2026-05-17 10:21:29 +0000";
 layers = (
 {
+.lastUpdate = 801645228.054;
 layerId = m01;
 shapes = (
 {
@@ -35229,7 +35204,7 @@ note = i;
 },
 {
 glyphname = dotlessi.cv01;
-lastChange = "2026-05-28 07:13:36 +0000";
+lastChange = "2026-05-28 07:13:59 +0000";
 layers = (
 {
 layerId = m01;
@@ -35237,22 +35212,98 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(804,0,l),
-(804,1120,l),
-(194,1120,l),
-(194,976,l),
-(620,976,l),
-(620,0,l)
+(575,977,l),
+(575,143,l),
+(210,143,l),
+(210,0,l),
+(1124,0,l),
+(1124,143,l),
+(759,143,l),
+(759,1120,l),
+(287,1120,l),
+(287,977,l)
 );
 }
 );
+userData = {
+assembly = "NPUSHB[ ]	/* 18 values pushed */
+8 182 0 194 6 2 182 4 3 76 1 6 5 76 0 75 7 10
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[10100]	/* MoveDirectRelPt */
+MIRP[00100]	/* MoveIndirectRelPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+MIRP[11100]	/* MoveIndirectRelPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+IUP[1]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */";
+};
 width = 1233;
 },
 {
 layerId = "281C21A4-45D9-482C-B928-385594A59359";
+shapes = (
+{
+closed = 1;
+nodes = (
+(655,977,l),
+(494,143,l),
+(129,143,l),
+(101,0,l),
+(1015,0,l),
+(1043,143,l),
+(678,143,l),
+(868,1120,l),
+(395,1120,l),
+(367,977,l)
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 34 values pushed */
+8 5 1 2 1 7 5 2 2 1 58 8 137 0 141 6 2 137 4 9 8 7 6 5 0 6 10 2 4 1 3 2 1 10
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[10100]	/* MoveDirectRelPt */
+MDRP[10100]	/* MoveDirectRelPt */
+MDRP[00100]	/* MoveDirectRelPt */
+SRP1[ ]	/* SetRefPoint1 */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SLOOP[ ]	/* SetLoopVariable */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+MIRP[10100]	/* MoveIndirectRelPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+SPVTL[1]	/* SetPVectorToLine */
+SRP0[ ]	/* SetRefPoint0 */
+SFVTCA[1]	/* SetFVectorToAxis */
+MIRP[01101]	/* MoveIndirectRelPt */
+SPVTL[1]	/* SetPVectorToLine */
+SRP0[ ]	/* SetRefPoint0 */
+SFVTCA[1]	/* SetFVectorToAxis */
+MIRP[01101]	/* MoveIndirectRelPt */
+EIF[ ]	/* EndIf */
+CLEAR[ ]	/* ClearStack */";
+};
 width = 1233;
 }
 );
+note = dotlessi;
+changeCount = 1;
 },
 {
 glyphname = i.cv02;
@@ -35351,6 +35402,7 @@ glyphname = dotlessi.cv02;
 lastChange = "2026-05-28 07:13:46 +0000";
 layers = (
 {
+.lastUpdate = 801645226.368;
 layerId = m01;
 shapes = (
 {
@@ -35376,6 +35428,7 @@ nodes = (
 width = 1233;
 },
 {
+.lastUpdate = 801645226.04;
 layerId = "281C21A4-45D9-482C-B928-385594A59359";
 width = 1233;
 }
