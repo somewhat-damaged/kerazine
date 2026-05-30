@@ -453,7 +453,7 @@ value = 141;
 },
 {
 name = underlinePosition;
-value = -184;
+value = -368;
 },
 {
 name = underlineThickness;
@@ -1423,7 +1423,7 @@ value = 141;
 },
 {
 name = underlinePosition;
-value = -184;
+value = -368;
 },
 {
 name = underlineThickness;
@@ -11452,7 +11452,7 @@ unicode = 94;
 },
 {
 glyphname = underscore;
-lastChange = "2026-05-20 17:39:55 +0000";
+lastChange = "2026-05-30 16:06:18 +0000";
 layers = (
 {
 layerId = m01;
@@ -11460,10 +11460,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(0,-276,l),
-(1233,-276,l),
-(1233,-92,l),
-(0,-92,l)
+(88,-276,l),
+(1145,-276,l),
+(1145,-92,l),
+(88,-92,l)
 );
 }
 );
@@ -11487,10 +11487,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-163,-276,l),
-(1070,-276,l),
-(1106,-92,l),
-(-127,-92,l)
+(-75,-276,l),
+(982,-276,l),
+(1018,-92,l),
+(-39,-92,l)
 );
 }
 );
