@@ -1,6 +1,9 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
+DisplayStrings = (
+oJgo
+);
 axes = (
 {
 name = Slant;
@@ -32,6 +35,12 @@ pos = 514;
 },
 {
 pos = -10;
+},
+{
+pos = 684;
+},
+{
+pos = -180;
 }
 );
 name = Regular;
@@ -439,9 +448,29 @@ unicode = 204;
 },
 {
 glyphname = J;
+lastChange = "2026-06-16 07:43:25 +0000";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,684,l),
+(138,612,l),
+(300,612,l),
+(300,138,ls),
+(300,-12,o),
+(228,-108,o),
+(138,-108,c),
+(138,-180,l),
+(246,-180,o),
+(390,-102,o),
+(390,138,cs),
+(390,684,l)
+);
+}
+);
 width = 600;
 }
 );
@@ -4139,6 +4168,12 @@ name = "x-Curve";
 },
 {
 name = "Base-Curve";
+},
+{
+type = "cap height";
+},
+{
+name = "Cap Descender";
 }
 );
 stems = (
