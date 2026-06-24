@@ -1,9 +1,6 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
-DisplayStrings = (
-"123467890!T?"
-);
 axes = (
 {
 name = Slant;
@@ -11,7 +8,7 @@ tag = slnt;
 }
 );
 date = "2026-06-11 13:35:29 +0000";
-familyName = "Untitled Mono";
+familyName = Kerazine;
 fontMaster = (
 {
 axesValues = (
@@ -44,12 +41,18 @@ pos = -180;
 },
 {
 pos = 300;
+},
+{
+pos = 720;
+},
+{
+pos = -108;
 }
 );
 name = Regular;
 stemValues = (
-0,
-0
+72,
+90
 );
 }
 );
@@ -3747,47 +3750,7 @@ unicode = 95;
 },
 {
 glyphname = parenleft;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 40;
-},
-{
-glyphname = parenright;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 41;
-},
-{
-glyphname = braceleft;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 123;
-},
-{
-glyphname = braceright;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 125;
-},
-{
-glyphname = bracketleft;
-lastChange = "2026-06-17 15:23:37 +0000";
+lastChange = "2026-06-24 08:21:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -3795,14 +3758,168 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(225,720,l),
-(225,-144,l),
-(495,-144,l),
-(495,-72,l),
-(315,-72,l),
-(315,648,l),
-(495,648,l),
-(495,720,l)
+(332,702,o),
+(230,546,o),
+(230,306,cs),
+(230,66,o),
+(332,-90,o),
+(356,-120,c),
+(420,-72,l),
+(399,-42,o),
+(320,126,o),
+(320,306,cs),
+(320,506,o),
+(399,654,o),
+(420,684,c),
+(356,732,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 40;
+},
+{
+glyphname = parenright;
+lastChange = "2026-06-24 08:21:16 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,684,l),
+(201,654,o),
+(280,506,o),
+(280,306,cs),
+(280,126,o),
+(201,-42,o),
+(180,-72,c),
+(244,-120,l),
+(268,-90,o),
+(370,66,o),
+(370,306,cs),
+(370,546,o),
+(268,702,o),
+(244,732,c)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 41;
+},
+{
+glyphname = braceleft;
+lastChange = "2026-06-24 08:39:53 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(270,436,o),
+(282,342,o),
+(150,342,c),
+(150,270,l),
+(282,270,o),
+(270,176,o),
+(270,26,cs),
+(270,-94,o),
+(348,-108,o),
+(450,-108,c),
+(450,-37,l),
+(360,-37,o),
+(360,-20,o),
+(360,52,c),
+(360,172,o),
+(366,306,o),
+(240,306,c),
+(366,306,o),
+(360,440,o),
+(360,560,c),
+(360,632,o),
+(360,648,o),
+(450,648,c),
+(450,720,l),
+(348,720,o),
+(270,706,o),
+(270,586,cs)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 123;
+},
+{
+glyphname = braceright;
+lastChange = "2026-06-24 08:40:01 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(330,706,o),
+(252,720,o),
+(150,720,c),
+(150,648,l),
+(240,648,o),
+(240,632,o),
+(240,560,c),
+(240,440,o),
+(234,306,o),
+(360,306,c),
+(234,306,o),
+(240,172,o),
+(240,52,c),
+(240,-20,o),
+(240,-37,o),
+(150,-37,c),
+(150,-108,l),
+(252,-108,o),
+(330,-94,o),
+(330,26,cs),
+(330,176,o),
+(318,270,o),
+(450,270,c),
+(450,342,l),
+(318,342,o),
+(330,436,o),
+(330,586,cs)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 125;
+},
+{
+glyphname = bracketleft;
+lastChange = "2026-06-24 08:23:08 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(210,720,l),
+(210,-108,l),
+(450,-108,l),
+(450,-36,l),
+(300,-36,l),
+(300,648,l),
+(450,648,l),
+(450,720,l)
 );
 }
 );
@@ -3813,7 +3930,7 @@ unicode = 91;
 },
 {
 glyphname = bracketright;
-lastChange = "2026-06-17 15:23:55 +0000";
+lastChange = "2026-06-24 08:23:14 +0000";
 layers = (
 {
 layerId = m01;
@@ -3821,14 +3938,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(105,648,l),
-(285,648,l),
-(285,-72,l),
-(105,-72,l),
-(105,-144,l),
-(375,-144,l),
-(375,720,l),
-(105,720,l)
+(150,648,l),
+(300,648,l),
+(300,-36,l),
+(150,-36,l),
+(150,-108,l),
+(390,-108,l),
+(390,720,l),
+(150,720,l)
 );
 }
 );
@@ -4685,6 +4802,17 @@ width = 600;
 unicode = 96;
 }
 );
+instances = (
+{
+axesValues = (
+0
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = Regular;
+}
+);
 metrics = (
 {
 type = ascender;
@@ -4712,6 +4840,12 @@ name = "Cap Descender";
 },
 {
 name = Operator;
+},
+{
+name = "Paren-Top";
+},
+{
+name = "Paren-Bottom";
 }
 );
 settings = {
@@ -4719,11 +4853,11 @@ disablesAutomaticAlignment = 1;
 };
 stems = (
 {
-name = "72";
+name = H;
 },
 {
 horizontal = 1;
-name = "90";
+name = V;
 }
 );
 unitsPerEm = 1000;
