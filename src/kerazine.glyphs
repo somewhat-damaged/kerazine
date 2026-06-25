@@ -1,16 +1,13 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
-DisplayStrings = (
-":,;otofo"
-);
 axes = (
 {
 name = Slant;
 tag = slnt;
 }
 );
-date = "2026-06-11 13:35:29 +0000";
+date = "2026-06-25 14:31:26 +0000";
 familyName = Kerazine;
 fontMaster = (
 {
@@ -93,84 +90,6 @@ width = 600;
 }
 );
 unicode = 65;
-},
-{
-glyphname = Aacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 193;
-},
-{
-glyphname = Acircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 194;
-},
-{
-glyphname = Adieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 196;
-},
-{
-glyphname = Agrave;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = A;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 192;
-},
-{
-glyphname = Aring;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 197;
-},
-{
-glyphname = Atilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 195;
-},
-{
-glyphname = AE;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 198;
 },
 {
 glyphname = B;
@@ -311,16 +230,6 @@ width = 600;
 unicode = 67;
 },
 {
-glyphname = Ccedilla;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 199;
-},
-{
 glyphname = D;
 lastChange = "2026-06-23 06:58:51 +0000";
 layers = (
@@ -368,16 +277,6 @@ width = 600;
 unicode = 68;
 },
 {
-glyphname = Eth;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 208;
-},
-{
 glyphname = E;
 lastChange = "2026-06-23 06:17:49 +0000";
 layers = (
@@ -412,54 +311,6 @@ width = 600;
 }
 );
 unicode = 69;
-},
-{
-glyphname = Eacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 201;
-},
-{
-glyphname = Ecircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 202;
-},
-{
-glyphname = Edieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 203;
-},
-{
-glyphname = Egrave;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = E;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 200;
 },
 {
 glyphname = F;
@@ -602,54 +453,6 @@ width = 600;
 unicode = 73;
 },
 {
-glyphname = Iacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 205;
-},
-{
-glyphname = Icircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 206;
-},
-{
-glyphname = Idieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 207;
-},
-{
-glyphname = Igrave;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = I;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 204;
-},
-{
 glyphname = J;
 lastChange = "2026-06-23 06:19:32 +0000";
 layers = (
@@ -743,16 +546,6 @@ width = 600;
 unicode = 76;
 },
 {
-glyphname = Lslash;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 321;
-},
-{
 glyphname = M;
 lastChange = "2026-06-23 06:25:39 +0000";
 layers = (
@@ -814,16 +607,6 @@ width = 600;
 unicode = 78;
 },
 {
-glyphname = Ntilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 209;
-},
-{
 glyphname = O;
 lastChange = "2026-06-23 06:26:58 +0000";
 layers = (
@@ -869,84 +652,6 @@ width = 600;
 }
 );
 unicode = 79;
-},
-{
-glyphname = Oacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 211;
-},
-{
-glyphname = Ocircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 212;
-},
-{
-glyphname = Odieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 214;
-},
-{
-glyphname = Ograve;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = O;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 210;
-},
-{
-glyphname = Oslash;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 216;
-},
-{
-glyphname = Otilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 213;
-},
-{
-glyphname = OE;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 338;
 },
 {
 glyphname = P;
@@ -996,16 +701,6 @@ width = 600;
 }
 );
 unicode = 80;
-},
-{
-glyphname = Thorn;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 222;
 },
 {
 glyphname = Q;
@@ -1209,16 +904,6 @@ width = 600;
 unicode = 83;
 },
 {
-glyphname = Scaron;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 352;
-},
-{
 glyphname = T;
 lastChange = "2026-06-20 10:20:24 +0000";
 layers = (
@@ -1287,54 +972,6 @@ width = 600;
 }
 );
 unicode = 85;
-},
-{
-glyphname = Uacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 218;
-},
-{
-glyphname = Ucircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 219;
-},
-{
-glyphname = Udieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 220;
-},
-{
-glyphname = Ugrave;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = U;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 217;
 },
 {
 glyphname = V;
@@ -1504,26 +1141,6 @@ width = 600;
 unicode = 89;
 },
 {
-glyphname = Yacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 221;
-},
-{
-glyphname = Ydieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 376;
-},
-{
 glyphname = Z;
 lastChange = "2026-06-23 06:34:06 +0000";
 layers = (
@@ -1560,16 +1177,6 @@ width = 600;
 }
 );
 unicode = 90;
-},
-{
-glyphname = Zcaron;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 381;
 },
 {
 glyphname = a;
@@ -1672,86 +1279,8 @@ width = 600;
 unicode = 97;
 },
 {
-glyphname = aacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 225;
-},
-{
-glyphname = acircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 226;
-},
-{
-glyphname = adieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 228;
-},
-{
-glyphname = agrave;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = a;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 224;
-},
-{
-glyphname = aring;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 229;
-},
-{
-glyphname = atilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 227;
-},
-{
-glyphname = ae;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 230;
-},
-{
 glyphname = b;
-lastChange = "2026-06-20 09:29:50 +0000";
+lastChange = "2026-06-25 15:38:54 +0000";
 layers = (
 {
 guides = (
@@ -1854,16 +1383,6 @@ width = 600;
 unicode = 99;
 },
 {
-glyphname = ccedilla;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 231;
-},
-{
 glyphname = d;
 lastChange = "2026-06-24 16:10:22 +0000";
 layers = (
@@ -1915,16 +1434,6 @@ width = 600;
 }
 );
 unicode = 100;
-},
-{
-glyphname = eth;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 240;
 },
 {
 glyphname = e;
@@ -2022,54 +1531,6 @@ width = 600;
 }
 );
 unicode = 101;
-},
-{
-glyphname = eacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 233;
-},
-{
-glyphname = ecircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 234;
-},
-{
-glyphname = edieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 235;
-},
-{
-glyphname = egrave;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = e;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 232;
 },
 {
 glyphname = f;
@@ -2278,53 +1739,37 @@ unicode = 105;
 },
 {
 glyphname = idotless;
+lastChange = "2026-06-25 14:40:55 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (315,504);
+}
+);
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(135,504,l),
+(135,432,l),
+(285,432,l),
+(285,72,l),
+(123,72,l),
+(123,0,l),
+(537,0,l),
+(537,72,l),
+(375,72,l),
+(375,504,l)
+);
+}
+);
 width = 600;
 }
 );
 unicode = 305;
-},
-{
-glyphname = iacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 237;
-},
-{
-glyphname = icircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 238;
-},
-{
-glyphname = idieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 239;
-},
-{
-glyphname = igrave;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 236;
 },
 {
 glyphname = j;
@@ -2382,6 +1827,42 @@ width = 600;
 }
 );
 unicode = 106;
+},
+{
+glyphname = jdotless;
+lastChange = "2026-06-25 14:41:19 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (342,504);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,504,l),
+(150,432,l),
+(312,432,l),
+(312,210,ls),
+(312,60,o),
+(300,-56,o),
+(150,-200,c),
+(198,-264,l),
+(396,-84,o),
+(402,48,o),
+(402,210,cs),
+(402,504,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 567;
 },
 {
 glyphname = k;
@@ -2457,16 +1938,6 @@ width = 600;
 }
 );
 unicode = 108;
-},
-{
-glyphname = lslash;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 322;
 },
 {
 glyphname = m;
@@ -2591,16 +2062,6 @@ width = 600;
 unicode = 110;
 },
 {
-glyphname = ntilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 241;
-},
-{
 glyphname = o;
 lastChange = "2026-06-23 13:55:19 +0000";
 layers = (
@@ -2646,84 +2107,6 @@ width = 600;
 }
 );
 unicode = 111;
-},
-{
-glyphname = oacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 243;
-},
-{
-glyphname = ocircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 244;
-},
-{
-glyphname = odieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 246;
-},
-{
-glyphname = ograve;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = o;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 242;
-},
-{
-glyphname = oslash;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 248;
-},
-{
-glyphname = otilde;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 245;
-},
-{
-glyphname = oe;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 339;
 },
 {
 glyphname = p;
@@ -2783,16 +2166,6 @@ width = 600;
 }
 );
 unicode = 112;
-},
-{
-glyphname = thorn;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 254;
 },
 {
 glyphname = q;
@@ -2989,26 +2362,6 @@ width = 600;
 unicode = 115;
 },
 {
-glyphname = scaron;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 353;
-},
-{
-glyphname = germandbls;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 223;
-},
-{
 glyphname = t;
 lastChange = "2026-06-25 09:29:43 +0000";
 layers = (
@@ -3073,54 +2426,6 @@ width = 600;
 }
 );
 unicode = 117;
-},
-{
-glyphname = uacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 250;
-},
-{
-glyphname = ucircumflex;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 251;
-},
-{
-glyphname = udieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 252;
-},
-{
-glyphname = ugrave;
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = u;
-},
-{
-ref = grave;
-}
-);
-width = 600;
-}
-);
-unicode = 249;
 },
 {
 glyphname = v;
@@ -3254,26 +2559,6 @@ width = 600;
 unicode = 121;
 },
 {
-glyphname = yacute;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 253;
-},
-{
-glyphname = ydieresis;
-layers = (
-{
-layerId = m01;
-width = 600;
-}
-);
-unicode = 255;
-},
-{
 glyphname = z;
 lastChange = "2026-06-20 03:11:08 +0000";
 layers = (
@@ -3312,14 +2597,57 @@ width = 600;
 unicode = 122;
 },
 {
-glyphname = zcaron;
+glyphname = a.ss01;
+lastChange = "2026-06-25 14:55:06 +0000";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,434,l),
+(396,440,o),
+(371,444,o),
+(329,444,cs),
+(185,444,o),
+(171,281,o),
+(171,229,cs),
+(171,145,o),
+(210,60,o),
+(294,60,cs),
+(344,60,o),
+(384,90,o),
+(420,120,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(346,516,o),
+(383,513,o),
+(420,506,cs),
+(452,500,o),
+(485,491,o),
+(510,480,c),
+(510,0,l),
+(420,0,l),
+(420,48,l),
+(390,21,o),
+(350,-12,o),
+(268,-12,cs),
+(148,-12,o),
+(81,105,o),
+(81,225,cs),
+(81,345,o),
+(123,516,o),
+(320,516,cs)
+);
+}
+);
 width = 600;
 }
 );
-unicode = 382;
 },
 {
 glyphname = ordfeminine;
@@ -5071,26 +4399,10 @@ unicode = 402;
 },
 {
 glyphname = at;
-lastChange = "2026-06-24 00:26:38 +0000";
+lastChange = "2026-06-25 16:00:53 +0000";
 layers = (
 {
-guides = (
-{
-pos = (-131,693);
-},
-{
-pos = (67,-9);
-},
-{
-angle = 90;
-pos = (331,349);
-},
-{
-angle = 90;
-pos = (48,289);
-}
-);
-layerId = m01;
+background = {
 shapes = (
 {
 closed = 1;
@@ -5155,6 +4467,71 @@ nodes = (
 (48,379,o),
 (79,507,o),
 (227,507,cs)
+);
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(292,446,l),
+(274,450,o),
+(256,453,o),
+(225,453,cs),
+(117,453,o),
+(107,331,o),
+(107,292,cs),
+(107,229,o),
+(135,165,o),
+(198,165,cs),
+(236,165,o),
+(265,188,o),
+(292,210,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(302,517,o),
+(360,496,o),
+(372,490,c),
+(372,174,ls),
+(372,102,o),
+(384,55,o),
+(432,55,cs),
+(474,55,o),
+(496,148,o),
+(496,328,cs),
+(496,598,o),
+(394,629,o),
+(274,629,cs),
+(184,629,o),
+(71,592,o),
+(41,583,c),
+(27,639,l),
+(57,651,o),
+(172,693,o),
+(274,693,cs),
+(412,693,o),
+(576,664,o),
+(576,328,cs),
+(576,106,o),
+(540,-9,o),
+(432,-9,cs),
+(348,-9,o),
+(292,32,o),
+(292,146,c),
+(269,126,o),
+(240,101,o),
+(179,101,cs),
+(89,101,o),
+(29,187,o),
+(29,289,cs),
+(29,391,o),
+(70,517,o),
+(218,517,cs)
 );
 }
 );
@@ -5468,6 +4845,7 @@ unicode = 162;
 },
 {
 glyphname = currency;
+lastChange = "2026-06-25 14:52:27 +0000";
 layers = (
 {
 layerId = m01;
@@ -5544,9 +4922,61 @@ unicode = 36;
 },
 {
 glyphname = euro;
+lastChange = "2026-06-25 14:51:23 +0000";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(523,660,l),
+(487,681,o),
+(443,696,o),
+(368,696,cs),
+(146,696,o),
+(85,532,o),
+(85,342,cs),
+(85,152,o),
+(146,-12,o),
+(368,-12,cs),
+(443,-12,o),
+(487,3,o),
+(523,24,c),
+(507,92,l),
+(471,74,o),
+(432,60,o),
+(368,60,cs),
+(206,60,o),
+(175,227,o),
+(175,342,cs),
+(175,444,o),
+(206,624,o),
+(368,624,cs),
+(432,624,o),
+(471,610,o),
+(507,592,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(25,229,l),
+(445,229,l),
+(445,301,l),
+(25,301,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(25,384,l),
+(445,384,l),
+(445,456,l),
+(25,456,l)
+);
+}
+);
 width = 600;
 }
 );
@@ -5564,9 +4994,44 @@ unicode = 163;
 },
 {
 glyphname = yen;
+lastChange = "2026-06-25 14:48:39 +0000";
 layers = (
 {
 layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(255,0,l),
+(345,0,l),
+(345,294,l),
+(563,684,l),
+(467,684,l),
+(300,384,l),
+(133,684,l),
+(37,684,l),
+(255,294,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(90,222,l),
+(510,222,l),
+(510,294,l),
+(90,294,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(90,114,l),
+(510,114,l),
+(510,186,l),
+(90,186,l)
+);
+}
+);
 width = 600;
 }
 );
@@ -6069,7 +5534,7 @@ unicode = 729;
 },
 {
 glyphname = grave;
-lastChange = "2026-06-24 15:59:46 +0000";
+lastChange = "2026-06-25 14:37:06 +0000";
 layers = (
 {
 layerId = m01;
@@ -6077,8 +5542,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(300,564,l),
-(372,564,l),
+(300,576,l),
+(372,576,l),
 (270,756,l),
 (162,756,l)
 );
@@ -6244,6 +5709,134 @@ name = "Paren-Top";
 },
 {
 name = "Paren-Bottom";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright (c) 2026, Lane Tan";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Lane Tan";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "Kerazine is Copyright (c) 2026, Lane Tan (lane@imap.cc),
+and is licensed under the SIL Open Font License, Version 1.1 (see below).
+Reserved Font Name: \"Kerazine\".
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply to
+any document created using the fonts or their derivatives.
+
+DEFINITIONS
+
+\"Font Software\" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+\"Reserved Font Name\" refers to any names specified as such after the
+copyright statement(s).
+
+\"Original Version\" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+\"Modified Version\" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+\"Author\" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+
+THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org/open-font-license-official-text/";
 }
 );
 settings = {
