@@ -2,7 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-"Y¥€1234567890Tnuhgbq"
+"https:p//|/backslash bruh|/backslash"
 );
 axes = (
 {
@@ -3903,7 +3903,7 @@ unicode = 35;
 },
 {
 glyphname = slash;
-lastChange = "2026-06-20 10:37:31 +0000";
+lastChange = "2026-06-28 23:47:37 +0000";
 layers = (
 {
 layerId = m01;
@@ -3911,10 +3911,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(77,-72,l),
-(169,-72,l),
-(523,756,l),
-(431,756,l)
+(78,-252,l),
+(168,-252,l),
+(522,756,l),
+(432,756,l)
 );
 }
 );
@@ -3925,7 +3925,7 @@ unicode = 47;
 },
 {
 glyphname = backslash;
-lastChange = "2026-06-20 10:37:13 +0000";
+lastChange = "2026-06-28 23:48:05 +0000";
 layers = (
 {
 layerId = m01;
@@ -3933,10 +3933,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(77,756,l),
-(431,-72,l),
-(523,-72,l),
-(169,756,l)
+(78,756,l),
+(432,-252,l),
+(522,-252,l),
+(168,756,l)
 );
 }
 );
