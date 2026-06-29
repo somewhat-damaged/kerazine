@@ -1,6 +1,12 @@
 {
 .appVersion = "3525";
 .formatVersion = 3;
+DisplayStrings = (
+"grill
+killing strangers
+phalanx
+olo"
+);
 axes = (
 {
 name = Slant;
@@ -9,6 +15,62 @@ tag = slnt;
 );
 date = "2026-06-25 14:31:26 +0000";
 familyName = Kerazine;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature sups;
+feature frac;
+feature ordn;
+feature ss01;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub a by a.ss01;
+sub g by g.ss01;
+sub l by l.ss01;
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss01;
+}
+);
 fontMaster = (
 {
 axesValues = (
@@ -1717,7 +1779,7 @@ unicode = 104;
 },
 {
 glyphname = i;
-lastChange = "2026-06-27 05:17:12 +0000";
+lastChange = "2026-06-29 04:05:59 +0000";
 layers = (
 {
 guides = (
@@ -1895,30 +1957,42 @@ unicode = 567;
 },
 {
 glyphname = k;
-lastChange = "2026-06-20 09:29:24 +0000";
+lastChange = "2026-06-29 04:02:35 +0000";
 layers = (
 {
+guides = (
+{
+angle = 90;
+pos = (563,0);
+},
+{
+pos = (563,0);
+},
+{
+angle = 228.6013;
+pos = (412,390);
+}
+);
 layerId = m01;
 shapes = (
 {
 closed = 1;
 nodes = (
-(120,0,l),
-(210,0,l),
-(210,252,l),
-(210,756,l),
-(120,756,l)
+(108,0,l),
+(198,0,l),
+(198,756,l),
+(108,756,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(210,252,l),
-(424,0,l),
-(540,0,l),
-(300,252,l),
-(510,504,l),
-(401,504,l)
+(198,276,l),
+(449,0,l),
+(563,0,l),
+(312,276,l),
+(520,504,l),
+(406,504,l)
 );
 }
 );
@@ -1929,7 +2003,7 @@ unicode = 107;
 },
 {
 glyphname = l;
-lastChange = "2026-06-20 09:42:34 +0000";
+lastChange = "2026-06-29 04:06:45 +0000";
 layers = (
 {
 guides = (
@@ -1942,24 +2016,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(46,684,l),
-(210,684,l),
-(210,216,l),
-(210,66,o),
-(264,-12,o),
-(384,-12,cs),
-(438,-12,o),
-(488,0,o),
-(518,12,c),
-(502,76,l),
-(472,66,o),
-(422,57,o),
-(380,60,cs),
-(326,64,o),
-(300,108,o),
-(300,216,c),
-(300,756,l),
-(46,756,l)
+(120,756,l),
+(120,684,l),
+(270,684,l),
+(270,72,l),
+(108,72,l),
+(108,0,l),
+(522,0,l),
+(522,72,l),
+(360,72,l),
+(360,756,l)
 );
 }
 );
@@ -2767,6 +2833,41 @@ nodes = (
 (84,345,o),
 (126,516,o),
 (323,516,cs)
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+glyphname = l.ss01;
+lastChange = "2026-06-29 03:49:38 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,684,l),
+(210,684,l),
+(210,216,l),
+(210,66,o),
+(264,-12,o),
+(384,-12,cs),
+(438,-12,o),
+(488,0,o),
+(518,12,c),
+(502,76,l),
+(472,66,o),
+(422,57,o),
+(380,60,cs),
+(326,64,o),
+(300,108,o),
+(300,216,c),
+(300,756,l),
+(46,756,l)
 );
 }
 );
