@@ -2,9 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-"rat
-kerazine
-1234567890 "
+r
 );
 axes = (
 {
@@ -2286,7 +2284,7 @@ unicode = 113;
 },
 {
 glyphname = r;
-lastChange = "2026-07-02 15:35:41 +0000";
+lastChange = "2026-07-02 15:53:20 +0000";
 layers = (
 {
 background = {
@@ -2325,7 +2323,7 @@ nodes = (
 (249,0,l),
 (249,402,l),
 (270,426,o),
-(327,462,o),
+(309,462,o),
 (381,462,cs),
 (423,462,o),
 (449,453,o),
