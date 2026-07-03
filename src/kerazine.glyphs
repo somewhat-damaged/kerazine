@@ -2,7 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-Jj
+gtj
 );
 axes = (
 {
@@ -1596,7 +1596,7 @@ unicode = 102;
 },
 {
 glyphname = g;
-lastChange = "2026-07-03 05:53:44 +0000";
+lastChange = "2026-07-03 09:05:49 +0000";
 layers = (
 {
 background = {
@@ -1650,8 +1650,8 @@ nodes = (
 (144,-30,o),
 (221,7,o),
 (257,22,c),
-(195,59,l),
-(159,47,o),
+(199,53,l),
+(163,41,o),
 (54,-12,o),
 (54,-102,cs),
 (54,-180,o),
