@@ -3,7 +3,7 @@
 .formatVersion = 3;
 DisplayStrings = (
 "aftolgodr@&a
-1234567890i/zero.zero",
+1234567890/zero.zero",
 "¤"
 );
 axes = (
@@ -30,6 +30,7 @@ feature frac;
 feature ordn;
 feature ss01;
 feature cv01;
+feature zero;
 ";
 tag = aalt;
 },
@@ -58,9 +59,16 @@ tag = ordn;
 },
 {
 automatic = 1;
+code = "sub zero by zero.zero;
+";
+tag = zero;
+},
+{
+automatic = 1;
 code = "sub g by g.ss01;
 sub i by i.ss01;
 sub l by l.ss01;
+sub y by y.ss01;
 ";
 labels = (
 {
