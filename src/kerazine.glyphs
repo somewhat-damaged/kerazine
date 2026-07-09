@@ -2,8 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-"ftljrgrind
-git"
+"12"
 );
 axes = (
 {
@@ -3243,7 +3242,7 @@ unicode = 48;
 },
 {
 glyphname = one;
-lastChange = "2026-07-09 04:11:38 +0000";
+lastChange = "2026-07-09 07:32:08 +0000";
 layers = (
 {
 guides = (
@@ -3256,8 +3255,8 @@ angle = 270;
 pos = (105,36);
 },
 {
-angle = 204.6417;
-pos = (195,567);
+angle = 194.1599;
+pos = (195,594);
 }
 );
 layerId = m01;
@@ -3265,9 +3264,9 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(86,602,l),
-(105,526,l),
-(286,609,l),
+(86,647,l),
+(105,571,l),
+(286,617,l),
 (286,72,l),
 (106,72,l),
 (106,0,l),
