@@ -2,11 +2,9 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-"oio
-kerazine",
-"oco
-directory
-erica"
+"oro
+kerazine
+rs"
 );
 axes = (
 {
@@ -2255,7 +2253,7 @@ unicode = 109;
 },
 {
 glyphname = n;
-lastChange = "2026-07-09 03:08:06 +0000";
+lastChange = "2026-07-12 15:59:05 +0000";
 layers = (
 {
 background = {
@@ -2473,7 +2471,7 @@ unicode = 113;
 },
 {
 glyphname = r;
-lastChange = "2026-07-12 03:41:40 +0000";
+lastChange = "2026-07-12 16:05:23 +0000";
 layers = (
 {
 background = {
@@ -2513,31 +2511,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(193,450,l),
-(55,450,l),
-(55,522,l),
-(285,522,l),
-(285,378,l),
-(369,462,o),
-(465,519,o),
-(513,534,c),
-(541,450,l),
-(517,441,o),
-(375,384,o),
-(285,306,c),
-(285,0,l),
-(193,0,l)
+(202,306,l),
+(202,450,l),
+(64,450,l),
+(64,522,l),
+(294,522,l),
+(294,378,l),
+(384,498,o),
+(499,528,o),
+(529,534,c),
+(549,454,l),
+(519,445,o),
+(384,396,o),
+(294,306,c),
+(294,0,l),
+(202,0,l)
 );
 }
 );
-width = 601;
+width = 600;
 }
 );
 unicode = 114;
 },
 {
 glyphname = s;
-lastChange = "2026-07-11 21:01:52 +0000";
+lastChange = "2026-07-12 16:04:15 +0000";
 layers = (
 {
 background = {
@@ -2643,14 +2642,14 @@ nodes = (
 );
 }
 );
-width = 601;
+width = 600;
 }
 );
 unicode = 115;
 },
 {
 glyphname = t;
-lastChange = "2026-07-11 13:58:17 +0000";
+lastChange = "2026-07-12 16:02:03 +0000";
 layers = (
 {
 guides = (
@@ -2698,7 +2697,7 @@ unicode = 116;
 },
 {
 glyphname = u;
-lastChange = "2026-07-09 03:08:47 +0000";
+lastChange = "2026-07-12 15:58:31 +0000";
 layers = (
 {
 layerId = m01;
@@ -2928,7 +2927,7 @@ unicode = 121;
 },
 {
 glyphname = z;
-lastChange = "2026-07-09 03:27:36 +0000";
+lastChange = "2026-07-12 16:03:55 +0000";
 layers = (
 {
 guides = (
