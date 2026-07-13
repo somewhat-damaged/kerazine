@@ -2,7 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-abcdpefghijklmnorstuvwxyz
+"abcdpefghijklmnorstuvwxyz|/backslash//"
 );
 axes = (
 {
@@ -4576,7 +4576,7 @@ unicode = 35;
 },
 {
 glyphname = slash;
-lastChange = "2026-07-09 04:23:31 +0000";
+lastChange = "2026-07-13 17:54:22 +0000";
 layers = (
 {
 layerId = m01;
@@ -4584,10 +4584,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(59,-252,l),
-(151,-252,l),
-(541,774,l),
-(449,774,l)
+(60,-252,l),
+(150,-252,l),
+(540,774,l),
+(450,774,l)
 );
 }
 );
@@ -4598,7 +4598,7 @@ unicode = 47;
 },
 {
 glyphname = backslash;
-lastChange = "2026-07-09 04:23:43 +0000";
+lastChange = "2026-07-13 17:54:15 +0000";
 layers = (
 {
 layerId = m01;
@@ -4606,10 +4606,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(59,774,l),
-(449,-252,l),
-(541,-252,l),
-(151,774,l)
+(60,774,l),
+(450,-252,l),
+(540,-252,l),
+(150,774,l)
 );
 }
 );
@@ -5484,7 +5484,7 @@ unicode = 176;
 },
 {
 glyphname = bar;
-lastChange = "2026-07-09 10:39:45 +0000";
+lastChange = "2026-07-13 17:54:06 +0000";
 layers = (
 {
 layerId = m01;
@@ -5492,10 +5492,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(254,-252,l),
-(346,-252,l),
-(346,774,l),
-(254,774,l)
+(255,-252,l),
+(345,-252,l),
+(345,774,l),
+(255,774,l)
 );
 }
 );
