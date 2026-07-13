@@ -2,7 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-"abcdpefghijklmnorstuvwxyz|/backslash//"
+"abcdpefghijklmnorstuvwxyz|/backslash//&"
 );
 axes = (
 {
@@ -1341,13 +1341,13 @@ unicode = 90;
 },
 {
 glyphname = a;
-lastChange = "2026-07-13 16:32:25 +0000";
+lastChange = "2026-07-13 17:56:33 +0000";
 layers = (
 {
 guides = (
 {
 angle = 90;
-pos = (120,138);
+pos = (126,138);
 }
 );
 layerId = m01;
@@ -1374,10 +1374,10 @@ nodes = (
 (353,464,o),
 (293,464,cs),
 (233,464,o),
-(157,432,o),
-(127,420,c),
-(105,486,l),
-(135,501,o),
+(156,432,o),
+(126,420,c),
+(104,486,l),
+(134,501,o),
 (215,534,o),
 (293,534,cs),
 (377,534,o),
@@ -5303,13 +5303,13 @@ unicode = 64;
 },
 {
 glyphname = ampersand;
-lastChange = "2026-07-13 16:21:57 +0000";
+lastChange = "2026-07-13 17:55:54 +0000";
 layers = (
 {
 guides = (
 {
 angle = 90;
-pos = (444,221);
+pos = (443,221);
 }
 );
 layerId = m01;
@@ -5317,8 +5317,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(466,678,l),
-(436,693,o),
+(465,678,l),
+(435,693,o),
 (374,714,o),
 (296,714,cs),
 (175,714,o),
@@ -5348,8 +5348,8 @@ nodes = (
 (206,644,o),
 (296,644,cs),
 (356,644,o),
-(414,624,o),
-(444,612,c)
+(413,624,o),
+(443,612,c)
 );
 },
 {
