@@ -2,10 +2,7 @@
 .appVersion = "3525";
 .formatVersion = 3;
 DisplayStrings = (
-"ghillie suit
-ogo
-kerazine
-"
+acefgjlrsty
 );
 axes = (
 {
@@ -75,42 +72,51 @@ fontMaster = (
 axesValues = (
 0
 );
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = n;
+}
+);
 id = m01;
 metricValues = (
 {
-pos = 774;
+pos = 780;
 },
 {
 },
 {
-pos = -252;
+pos = -260;
 },
 {
-pos = 522;
+pos = 520;
 },
 {
-pos = 534;
+pos = 532;
 },
 {
 pos = -12;
 },
 {
-pos = 702;
+pos = 720;
 },
 {
-pos = -180;
+pos = -200;
 },
 {
-pos = 306;
+pos = 325;
 },
 {
-pos = 786;
+pos = 792;
 },
 {
-pos = -264;
+pos = -272;
 },
 {
-pos = 714;
+pos = 732;
+},
+{
+pos = -212;
 }
 );
 name = Regular;
@@ -2992,21 +2998,6 @@ width = 600;
 unicode = 122;
 },
 {
-glyphname = l.cv01;
-lastChange = "2026-07-23 12:52:15 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = l;
-}
-);
-width = 600;
-}
-);
-},
-{
 glyphname = g.cv02;
 lastChange = "2026-07-23 04:41:02 +0000";
 layers = (
@@ -3179,97 +3170,6 @@ nodes = (
 }
 );
 width = 600;
-}
-);
-},
-{
-glyphname = y.cv03;
-lastChange = "2026-07-23 12:50:33 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(84,-264,l),
-(264,-210,o),
-(319,-100,o),
-(358,0,c),
-(563,522,l),
-(473,522,l),
-(313,115,l),
-(153,522,l),
-(63,522,l),
-(268,0,l),
-(225,-109,o),
-(183,-153,o),
-(63,-201,c)
-);
-}
-);
-width = 600;
-}
-);
-},
-{
-glyphname = r.cv04;
-lastChange = "2026-07-25 05:57:37 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-ref = r;
-}
-);
-width = 600;
-}
-);
-},
-{
-glyphname = o.001;
-lastChange = "2026-07-23 03:38:21 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(450,-12,o),
-(545,99,o),
-(545,261,cs),
-(545,423,o),
-(450,534,o),
-(300,534,cs),
-(150,534,o),
-(55,423,o),
-(55,261,cs),
-(55,99,o),
-(150,-12,o),
-(300,-12,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(192,58,o),
-(145,153,o),
-(145,261,cs),
-(145,369,o),
-(192,464,o),
-(300,464,cs),
-(408,464,o),
-(455,369,o),
-(455,261,cs),
-(455,153,o),
-(408,58,o),
-(300,58,cs)
-);
-}
-);
-width = 599;
 }
 );
 },
@@ -6749,13 +6649,16 @@ name = "Cap Descender";
 name = Operator;
 },
 {
-name = "A-Curve";
+name = "A-OS";
 },
 {
-name = "D-Curve";
+name = "D-OS";
 },
 {
-name = "C-Curve";
+name = "C-OS";
+},
+{
+name = "CD-OS";
 }
 );
 properties = (
