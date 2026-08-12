@@ -2,9 +2,7 @@
 .appVersion = "4004";
 .formatVersion = 3;
 DisplayStrings = (
-"oso
-nuhrµ@
-"
+V
 );
 axes = (
 {
@@ -1172,7 +1170,7 @@ unicode = 85;
 },
 {
 glyphname = V;
-lastChange = "2026-07-26 06:51:35 +0000";
+lastChange = "2026-08-12 16:48:52 +0000";
 layers = (
 {
 layerId = m01;
@@ -1182,17 +1180,17 @@ closed = 1;
 nodes = (
 (255,0,l),
 (345,0,l),
-(114,720,l),
-(24,720,l)
+(108,720,l),
+(18,720,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(486,720,l),
+(492,720,l),
 (255,0,l),
 (345,0,l),
-(576,720,l)
+(582,720,l)
 );
 }
 );
