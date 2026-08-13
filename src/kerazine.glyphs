@@ -10,6 +10,12 @@ name = Slant;
 tag = slnt;
 }
 );
+customParameters = (
+{
+name = isFixedPitch;
+value = 0;
+}
+);
 date = "2026-06-25 14:31:26 +0000";
 familyName = Kerazine;
 featurePrefixes = (
